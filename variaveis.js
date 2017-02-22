@@ -19,3 +19,10 @@ var meDigaSeusTipos = function(){
 	console.log('object é', typeof object);
 	console.log('funcao é', typeof funcao);
 };
+
+var funcaoComAlert = function(){
+	for(var i = 0; i < lista.length; i++){
+		console.log(lista[i]);
+		alert('Um alert para a execução do seu códico...');
+	}
+};
