@@ -4,7 +4,10 @@ var texto = 'Ola mundo';
 
 var lista = [1,2,3,4,5,6];
 
-var object = {};
+var object = {
+	nome: 'Diego',
+	sexo: 'Masculino'
+};
 
 var funcao = function(){
 	for(var i = 0; i < lista.length; i++){
