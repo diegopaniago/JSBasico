@@ -1,3 +1,5 @@
+'use strict';
+
 var numero = 1;
 
 var texto = 'Ola mundo';

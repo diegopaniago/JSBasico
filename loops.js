@@ -20,3 +20,10 @@ var listarComForEach = function(lista){
 		console.log(elementoDaLista);
 	});
 };
+
+var removerDeUmaListaComWhile = function(lista){
+	while(lista.length > 0){
+		console.log(lista);
+		lista.splice(0,1);
+	}
+};
