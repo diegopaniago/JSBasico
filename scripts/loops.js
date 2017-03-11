@@ -4,8 +4,8 @@ var listaDeNomes = ['Diego', 'Eduardo', 'Ciclano', 'Fulano'];
 var listaDeCarros = [{carro: 'Uno'}, {carro: 'ferrari'}, {carro: 'gol'}];
 
 function listarNomes(){
-	for(var i=0; i<listaDeNomes.length; i++){
-		console.log(listaDeNomes[i]);
+	for(var indice=0; indice<listaDeNomes.length; indice++){
+		console.log(listaDeNomes[indice]);
 	}
 }
 
@@ -15,6 +15,7 @@ function listarCarros(){
 	}	
 }
 
+
 function listarComForEach(lista){
 	lista.forEach(function(elementoDaLista){
 		console.log(elementoDaLista);
@@ -22,8 +23,8 @@ function listarComForEach(lista){
 };
 
 function removerDeUmaListaComWhile(lista){
-	while(lista.length > 0){
-		console.log(lista);
+	while(lista.length > 0){		
 		lista.splice(0,1);
+		console.log(lista);
 	}
 };

@@ -11,6 +11,8 @@ var object = {
 	sexo: 'Masculino'
 };
 
+var verdade = true;
+
 var funcao = function(){
 	for(var i = 0; i < lista.length; i++){
 		console.log(lista[i]);
@@ -24,6 +26,7 @@ function meDigaSeusTipos(){
 	console.log('lista é', typeof lista);
 	console.log('object é', typeof object);
 	console.log('funcao é', typeof funcao);
+	console.log('verdade é', typeof verdade);
 }
 
 function funcaoComAlert(){
