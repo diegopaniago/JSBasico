@@ -1,0 +1,3 @@
+1 - Crie uma função para cada operação matemática a seguir, soma, multiplicação e divisão recebendo dois números como parâmetros.
+
+2 - Faça uma função percorrer uma lista qualquer e remover o elemento que você passar por parâmetro. Essa função deve avisar com um console.warn que não possui o elemento caso ele não exista na lista.
