@@ -28,7 +28,7 @@ function selecionarPorTag(tag){
 }
 
 function selecionarPorQualquerCoisa(identificacao){
-	document.querySelector(identificacao);
+	return document.querySelector(identificacao);
 }
 
 //Navegando propriedades do elemento
