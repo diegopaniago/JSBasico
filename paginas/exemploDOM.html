@@ -12,9 +12,11 @@
 	</header>
 
 	<section id="conteudo">
-		<input type="button" data-js="diga-oi" value="Me diga um oi ai"/>
+		<input type="button" data-js="diga-oi" onclick="digaOi()" value="Me diga um oi ai"/>
 		
-		<input type="button" data-js="mostra-tabela" value="Mostrar minha tabela"/>
+		<input type="button" data-js="mostra-tabela" onclick="mostrarTabela()" value="Mostrar minha tabela"/>
+
+		<input type="button" data-js="esconde-tabela" onclick="esconderTabela()" value="Mostrar minha tabela"/>
 
 		<table data-js="tabela-de-salarios" style="display: none;" border="1">
 			<thead>
