@@ -12,11 +12,22 @@
 	</header>
 
 	<section id="conteudo">
-		<input type="button" data-js="diga-oi" onclick="digaOi()" value="Me diga um oi ai"/>
 		
-		<input type="button" data-js="mostra-tabela" onclick="mostrarTabela()" value="Mostrar minha tabela"/>
+		<div>
+			<input type="button" data-js="diga-oi" onclick="digaOi()" value="Me diga um oi ai"/>
 
-		<input type="button" data-js="esconde-tabela" onclick="esconderTabela()" value="Mostrar minha tabela"/>
+			<input type="button" data-js="mostra-tabela" onclick="mostrarTabela()" value="Mostrar minha tabela"/>
+
+			<input type="button" data-js="esconde-tabela" onclick="esconderTabela()" value="Mostrar minha tabela"/>
+		</div>
+
+		<form>
+			<label>Nome:</label>
+			<input type="text" data-js="nome" value="" placeholder="Nome"/>
+			<label>Salario:</label>
+			<input type="number" data-js="salario" value="" placeholder="Salario"/>
+			<input type="button" onclick="adicionarAluninho()" value="Adicionar" />
+		</form>
 
 		<table data-js="tabela-de-salarios" style="display: none;" border="1">
 			<thead>
