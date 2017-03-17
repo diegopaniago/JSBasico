@@ -57,11 +57,6 @@ function adicionarAluninho(){
 	var nome = document.querySelector('input[data-js="nome"]').value;
 	var salario = document.querySelector('input[data-js="salario"]').value;
 	salario = salario + ' temers';
-
-	console.log(nome);
-	console.log(salario);
-
 	var tabela = document.querySelector('table[data-js="tabela-de-salarios"] tbody');
 	tabela.innerHTML = tabela.innerHTML + '<tr><td>' + nome + '</td>' + '<td>' + salario + '</td></tr>';
-
 }

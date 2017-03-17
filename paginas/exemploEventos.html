@@ -2,23 +2,23 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Exemplo da DOM</title>
+	<title>Exemplo de Eventos</title>
 </head>
 <body>
-	<script type="text/javascript" src="../scripts/exemploDOM.js"></script>
+	<script type="text/javascript" src="../scripts/exemploEventos.js"></script>
 
 	<header id="titulo" class="menu" data-js="menu-da-dom">
-		<h1>Olá Document Object Model</h1>
+		<h1>Eventos</h1>
 	</header>
 
 	<section id="conteudo">
 		
 		<div>
-			<input type="button" data-js="diga-oi" onclick="digaOi()" value="Me diga um oi ai"/>
+			<input type="button" data-js="diga-oi" value="Me diga um oi ai"/>
 
-			<input type="button" data-js="mostra-tabela" onclick="mostrarTabela()" value="Mostrar minha tabela"/>
+			<input type="button" data-js="mostra-tabela" value="Mostrar minha tabela"/>
 
-			<input type="button" data-js="esconde-tabela" onclick="esconderTabela()" value="Esconder minha tabela"/>
+			<input type="button" data-js="esconde-tabela" value="Esconder minha tabela"/>
 		</div>
 
 		<form>
@@ -26,28 +26,38 @@
 			<input type="text" data-js="nome" value="" placeholder="Nome"/>
 			<label>Salario:</label>
 			<input type="number" data-js="salario" value="" placeholder="Salario"/>
-			<input type="button" onclick="adicionarAluninho()" value="Adicionar" />
+			<input type="button" data-js="adiciona-aluninho" value="Adicionar" />
 		</form>
 
-		<table data-js="tabela-de-salarios" style="display: none;" border="1">
+		<table data-js="tabela-de-salarios" style="display: table;" border="1">
 			<thead>
 				<tr>
 					<th>Aluninho</th>
 					<th>Salario</th>
+					<th></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>Eduardo</td>
 					<td>5000,00 temers</td>
+					<td>
+						<button data-js="exclui-linha">Excluir</button>
+					</td>
 				</tr>
 				<tr>
 					<td>Jakeline</td>
 					<td>12.000,00 temers</td>
+					<td>
+						<button data-js="exclui-linha">Excluir</button>
+					</td>
 				</tr>
 				<tr>
 					<td>Diego Paniago</td>
 					<td>paçoca e café</td>
+					<td>
+						<button data-js="exclui-linha">Excluir</button>
+					</td>
 				</tr>
 			</tbody>
 		</table>
