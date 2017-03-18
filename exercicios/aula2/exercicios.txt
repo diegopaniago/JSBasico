@@ -1,0 +1,4 @@
+ - Crie uma tela com um formulário de no mínimo 3 campos para preencher com um botão adicionar.
+O botão adicionar deve pegar conteúdo do formulário e adicioná-lo em uma tabela.
+
+ - Usando a mesma tela do exercício anterior, refatore para registrar eventos na tela usando o window.onload e adicione um campo na tabela para excluir a linha selecionada.
