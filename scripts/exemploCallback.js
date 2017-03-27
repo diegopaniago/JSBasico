@@ -1,8 +1,7 @@
 'use strict';
 
 function dizerOiDepoisDeTresSegundos(){
-	setTimeout(3000);
-	dizerOi();
+	setTimeout(dizerOi, 3000);
 }
 
 function dizerOi(){
